@@ -1,5 +1,5 @@
 DEVICE_CONFIG = {
-    
+    "layout_file": "api/aiagent/config/finnish_layout.npy"
 }
 
 FINGER_AGENT_CONFIG = {
