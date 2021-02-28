@@ -27,4 +27,5 @@ jobs:
       - name: Run tests with Pytest
         working-directory: ${{ github.workspace }}
         run: |
+          cd ${{ github.workspace }}/typing-server
           pytest
