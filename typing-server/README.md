@@ -19,7 +19,7 @@ Create virtualenv:
 
 Run the sample server
 
-    python api.py
+    python run.py
 
 Try the endpoints:
 
