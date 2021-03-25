@@ -19,7 +19,7 @@ RUN npm install
 RUN npm install react-scripts -g
 
 # Add React app to working directory
-ADD ./app
+ADD . /app
 
 # Start the React app
 CMD ["npm", "start"]
